@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="post">
+        <h2>Registration Form</h2>
+        <div>
+            <b><label for="name">Name</label></b><br>
+            <input type="text" class="Fname name" id="name" name="name" placeholder="First name" required>
+            <input type="text" class="Mname name" placeholder="Middle name" required>
+            <input type="text" class="Lname name" placeholder="Last name" required>
+        </div>
+        <br>
+        <div>
+            <b><label for="Birth">Birth Date</label></b><br>
+            <input type="date" name="Birth" id="Birth" required>
+        </div>
+        <br>
+        <div>
+            <b><label for="Gender">Gender</label></b><br>
+            <input type="radio" name="Gender" id="Male" required>
+            <label for="Male">Male</label>
+            <input class="Female" type="radio" name="Gender" id="Female">
+            <label for="Female">Female</label><br>
+        </div>
+        <br>
+        <div>
+            <b><label class="country" for="country">Of which country are you a citizen?</label></b><br>
+            <select class="select" name="country" id="country" required>
+                <option value="country">Please select</option>
+                <option value="country">Mumbai</option>
+                <option value="country">Delhi</option>
+                <option value="country">Hydrabad</option>
+                <option value="country">Jaipur</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <b><label for="number">Phone</label></b><br>
+            <input type="tel" id="number" class="number" placeholder="Mobile Number" required>
+        </div>
+        <br>
+        <div>
+            <b><label class="email" for="email">E-Mail</label></b><br>
+            <input type="email" id="email" placeholder="ex:myname@gmail.com" required>
+        </div>
+        <br>
+        <div>
+            <b><label for="Street Address">Address</label></b><br>
+            <input type="text" id="Street Address" class="Street" name="Street Address"
+                placeholder="Street Address Line">
+            <br>
+            <input type="text" id="Street Address" class="Street" name="Street Address"
+                placeholder="Street Address Line 2"><br>
+            <input type="text" class="City" name="City" placeholder="City">
+            <input type="text" class="City" name="State" placeholder="State"><br>
+            <input type="text" id="Street Address" class="Street" name="Pincode" placeholder="Pincode">
+        </div>
+        <div>
+            <button type="Submit" value="submit" class="Next"><a href="submit.html">Next</a></button>
+
+        </div>
+
+    </form>
+</body>
+
+</html>

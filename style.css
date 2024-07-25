@@ -1,0 +1,49 @@
+form{
+    border: 4px solid blue;
+    padding: 0vw 5vh ; 
+    margin: 5vh 25vw;
+}   
+.name{
+    text-align: center;
+    padding: 0.4vw 0.7vh;
+    margin: 0.4vh;
+}
+#Birth{
+    padding: 0.7vh 2.4vw;
+    margin: 0.4vh;
+}
+h2{
+    margin: 6vh 13vw ;
+}
+.Female{
+    margin-left: 5vw;
+}
+.select{
+    font-size: 15px;
+    font-weight:bolder;
+    /* padding-left: 55px; */
+    /* padding-right: 55px; */
+    padding: 2px 60px 2px 60px;
+}
+.number{
+    text-align: center;
+    padding: 0.3vw 0.7vh;
+    margin: 0.4vh;
+}
+#email{
+    padding:0.3vw 5.1vh;
+}
+.Street{
+    text-align: center;
+    padding: 0.3vw 31vh;
+    margin: 0.4vh;
+}
+.City{
+    text-align: center;
+    margin: 0.4vh;
+    padding: 0.3vw 8.4vh;
+}
+.Next{
+    margin: 1vh 15vw;
+    padding: 0.8vh 5vw;
+}
